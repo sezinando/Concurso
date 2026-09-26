@@ -1,0 +1,1 @@
+{"schemaVersion":"1.0","queue":[],"policy":{"overdueFirst":true,"recurringErrorsFirst":true,"lowRetentionFirst":true,"uncertainCorrectShortInterval":true,"repeatedSuccessLongerInterval":true},"rule":"Fila derivada das evidências; não usar calendário fixo indiscriminadamente."}
