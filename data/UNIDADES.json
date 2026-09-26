@@ -1,23 +1,173 @@
 {
-  "schemaVersion":"1.0",
-  "source":"Edital Transpetro 2026 + mapped study materials",
-  "status":"INICIAL",
-  "rule":"Units are observable competencies; null means not measured.",
-  "items":{
-    "11.1":{"name":"Independência de dados","units":[
-      "definir abstração de dados","distinguir independência física e lógica","identificar níveis interno/conceitual/externo","interpretar mapeamentos ANSI/SPARC"
-    ]},
-    "11.2":{"name":"Abordagem entidade-relacionamento","units":[
-      "distinguir modelo conceitual lógico e físico","definir entidade e ocorrência","classificar atributos","identificar chave/identificador","interpretar relacionamento","interpretar cardinalidade","interpretar participação","determinar grau","distinguir entidade forte e fraca","identificar entidade associativa","interpretar generalização e especialização","interpretar agregação","reconhecer notações Chen e Crow's Foot"
-    ]},
-    "11.3":{"name":"Modelo Relacional","units":[
-      "definir relação","distinguir tupla atributo e domínio","identificar chave candidata e chave primária","identificar chave estrangeira","interpretar integridade referencial","aplicar operações relacionais","mapear MER para modelo relacional"
-    ]},
-    "11.4":{"name":"Triggers e Stored Procedures","units":["distinguir trigger e stored procedure","identificar momento/evento de execução","interpretar parâmetros e efeitos"]},
-    "11.5":{"name":"SQL","units":["DDL","DML","DCL","TCL","SELECT","JOIN","agregação","subconsultas","views","restrições"]},
-    "11.6":{"name":"Alta disponibilidade","units":["definir disponibilidade","distinguir redundância failover e recuperação","interpretar RTO/RPO","reconhecer replicação e clustering"]},
-    "11.7":{"name":"Gerência de transações","units":["definir transação","explicar ACID","interpretar COMMIT e ROLLBACK","distinguir concorrência e isolamento","interpretar serialização","reconhecer recuperação e logs"]},
-    "11.8":{"name":"Gerência de bloqueios","units":["distinguir bloqueio compartilhado e exclusivo","interpretar granularidade","reconhecer deadlock e starvation","relacionar bloqueios e isolamento"]},
-    "11.9":{"name":"Gerência de desempenho","units":["identificar fatores de desempenho","interpretar índices","reconhecer otimização de consultas","interpretar estatísticas","relacionar CPU memória I/O e armazenamento"]}
+  "schemaVersion": "1.1",
+  "source": "Edital Transpetro 2026 — Ênfase 4",
+  "sourceEvidence": [
+    "Edital Transpetro 2026.pdf",
+    "edital-4-transpetro-2026-estrategia-concursos.pdf"
+  ],
+  "rule": "A lista de conteúdos reproduz a estrutura do edital; competências observáveis são derivadas pelo motor sem alterar o escopo.",
+  "items": {
+    "1": {
+      "name": "Redes de Computadores e Sistemas Distribuídos",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "1.1 Arquiteturas de rede; topologias; equipamentos de conexão e transmissão; QoS; Modelo OSI da ISO; arquitetura e protocolos TCP/IP; nível de aplicação TCP/IP; DNS; FTP; NFS; TELNET; SMTP; HTTP; LDAP; DHCP; IPSEC; SSH; SNMP; NAT; IPv6"
+      ]
+    },
+    "2": {
+      "name": "Ambiente UNIX e LINUX",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "2.1 Instalação e suporte a TCP/IP, DHCP, DNS, NIS, CIFS, NFS e serviços de impressão em rede",
+        "2.2 Instalação e configuração do Servidor Apache",
+        "2.3 Integração com ambiente Windows e linguagens de script"
+      ]
+    },
+    "3": {
+      "name": "Ambiente Microsoft Windows 11",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "3.1 Instalação e suporte de TCP/IP, DHCP e DNS",
+        "3.2 Active Directory, IIS e Terminal Services",
+        "3.3 Serviços de arquivo e impressão em rede",
+        "3.4 Integração com ambiente Unix",
+        "3.5 Linguagens de Script"
+      ]
+    },
+    "4": {
+      "name": "Gerência de Projeto",
+      "priority": "ALTA",
+      "items": [
+        "4.1 Gerenciamento do ciclo de vida do sistema: requisitos, projeto lógico, projeto físico, teste e implementação",
+        "4.2 Conceito e objetivos da gerência de projetos",
+        "4.3 Abertura e definição do escopo",
+        "4.4 Planejamento de projeto",
+        "4.5 Diagrama de Rede, Caminho Crítico, Folgas e EAP",
+        "4.6 Execução, acompanhamento e controle",
+        "4.7 Revisão e avaliação",
+        "4.8 Fechamento",
+        "4.9 Metodologias, técnicas e ferramentas"
+      ]
+    },
+    "5": {
+      "name": "Segurança da Informação",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "5.1 Segurança física e lógica",
+        "5.2 Operação de segurança: Firewall, Proxy, IPS/IDS, DLP, CASB, SIEM, Antivírus, EDR, WAF, gestão de vulnerabilidades, monitoração e backup",
+        "5.3 Softwares maliciosos: ransomware, vírus, worms, spywares, rootkit etc.",
+        "5.4 Ataques: DDoS, SQL Injection, XSS, CSRF, Path Traversal etc.",
+        "5.5 Técnicas de desenvolvimento seguro: SAST, DAST, IAST",
+        "5.6 VPN",
+        "5.7 MDM",
+        "5.8 SSO",
+        "5.9 MFA",
+        "5.10 Gestão de identidade e acesso: autenticação, autorização, auditoria, RBAC e ABAC"
+      ]
+    },
+    "6": {
+      "name": "Conceitos de Storage (NAS e SAN) e Virtualização",
+      "priority": "ALTA",
+      "items": [
+        "6.1 Introdução à virtualização",
+        "6.2 Formas de virtualização",
+        "6.3 Virtualização de computação",
+        "6.4 Virtualização de rede",
+        "6.5 Virtualização de armazenamento: sistemas virtuais de arquivos, sistemas distribuídos e tecnologias"
+      ]
+    },
+    "7": {
+      "name": "Arquitetura de Computadores e Computação de Alto Desempenho",
+      "priority": "ALTA",
+      "items": [
+        "7.1 Concorrência, paralelismo e computação distribuída",
+        "7.2 Computação em aglomerados (Cluster) e computação em grades (Grids)",
+        "7.3 Balanceamento de carga",
+        "7.4 Avaliação de desempenho",
+        "7.5 DevOps: princípios e modelos",
+        "7.6 Contêineres: introdução e principais tecnologias",
+        "7.7 Virtualização a nível de sistema operacional",
+        "7.8 Diferença entre virtualização de contêineres e outros tipos",
+        "7.9 Modos de utilização de um container",
+        "7.10 Microsserviços: conceitos, arquitetura, componentes, serviços e orquestração",
+        "7.11 Infraestrutura como código"
+      ]
+    },
+    "8": {
+      "name": "Computação em Nuvem",
+      "priority": "ALTA",
+      "items": [
+        "8.1 Conceitos: benefícios, alta disponibilidade, escalabilidade, elasticidade, agilidade e recuperação de desastres",
+        "8.2 Arquitetura: distribuição geográfica, regiões, zonas de disponibilidade, subscrições, grupos de gestão e recursos",
+        "8.3 Identidade, privacidade, conformidade e segurança na nuvem",
+        "8.4 Gestão de custos: faturamento, subscrições e contas, definição de preço"
+      ]
+    },
+    "9": {
+      "name": "Gerenciamento de Serviços de TI",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "9.1 Fundamentos segundo ITIL versão 4: ciclo de vida de serviços",
+        "9.2 Processos de transição e operação de serviços",
+        "9.3 Processos do domínio Entrega de Serviço do COBIT 4.1"
+      ]
+    },
+    "10": {
+      "name": "Segurança da Informação",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "10.1 Gerenciamento de resposta a incidente (NIST SP 800-61)",
+        "10.2 Threat intel e threat hunting",
+        "10.3 Testes de penetração e modelagem de ameaças (STRIDE etc.)",
+        "10.4 Táticas do framework MITRE ATT&CK",
+        "10.5 Gestão de riscos (ISO 31000), continuidade de negócios (ISO 22301) e Lei Sarbanes-Oxley",
+        "10.6 Políticas de Segurança de Informação",
+        "10.7 Classificação de informações",
+        "10.8 ISO 27002, criptografia, certificação digital e assinatura digital",
+        "10.9 Conceitos de segurança em nuvem",
+        "10.10 Segurança em IoT"
+      ]
+    },
+    "11": {
+      "name": "Banco de Dados",
+      "priority": "MUITO_ALTA",
+      "items": [
+        "11.1 Independência de dados",
+        "11.2 A abordagem entidade-relacionamento",
+        "11.3 O modelo Relacional",
+        "11.4 Gatilhos (triggers) e Procedimentos Armazenados (stored procedures)",
+        "11.5 A linguagem SQL",
+        "11.6 Conceitos de alta disponibilidade",
+        "11.7 Gerência de transações",
+        "11.8 Gerência de bloqueios",
+        "11.9 Gerência de desempenho"
+      ]
+    },
+    "12": {
+      "name": "Programação",
+      "priority": "ALTA",
+      "items": [
+        "12.1 Algoritmos e estruturas de dados",
+        "12.2 Noções de engenharia de software",
+        "12.3 Linguagem de marcação: HTML e XML",
+        "12.4 Programação básica em Java: objetos, classes, herança, polimorfismo, interfaces e principais bibliotecas",
+        "12.5 Noções de programação J2EE, Servlets, JSP e EJB"
+      ]
+    },
+    "13": {
+      "name": "Raciocínio Lógico",
+      "priority": "ALTA",
+      "items": [
+        "13.1 Sentido lógico-matemático convencional dos conectivos",
+        "13.2 Argumentos",
+        "13.3 Lógica sentencial",
+        "13.4 Lógica de predicados de primeira ordem",
+        "13.5 Regras de formação de fórmulas",
+        "13.6 Sistemas dedutivos",
+        "13.7 Decidibilidade da lógica sentencial",
+        "13.8 Valores-verdade",
+        "13.9 Funções de avaliação"
+      ]
+    }
   }
 }
