@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concurso — Dashboard de Aprendizagem</title>
+<style>
+body{font-family:system-ui;background:#080808;color:#f5f5f5;margin:0;padding:24px}.wrap{max-width:1100px;margin:auto}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.card{background:#121212;border:1px solid #2b2b2b;border-radius:12px;padding:18px}.big{font-size:32px;font-weight:700}.muted{color:#aaa}.warn{color:#ffb4b4}table{width:100%;border-collapse:collapse;margin-top:20px}td,th{padding:10px;border-bottom:1px solid #2b2b2b;text-align:left}.bar{height:10px;background:#1a1a1a;border-radius:8px;overflow:hidden}.fill{height:100%;background:#2f7df6}.btn{background:#1a1a1a;color:#f5f5f5;border:1px solid #2b2b2b;border-radius:8px;padding:9px 12px;cursor:pointer;margin-right:8px}
+</style></head><body><div class="wrap">
+<h1>Dashboard de Aprendizagem</h1><p class="muted">Métricas derivadas de evidências registradas. Dados ausentes permanecem não medidos.</p>
+<div class="grid">
+<div class="card"><div class="muted">Coverage</div><div id="coverage" class="big">—</div></div>
+<div class="card"><div class="muted">Domain</div><div id="domain" class="big">—</div></div>
+<div class="card"><div class="muted">Retention</div><div id="retention" class="big">—</div></div>
+<div class="card"><div class="muted">Questões respondidas</div><div id="questions" class="big">0</div></div>
+</div>
+<div class="card" style="margin-top:12px"><h2>Estado atual</h2><div id="status" class="muted">Carregando…</div></div>
+<div class="card" style="margin-top:12px"><h2>Resultados QTI locais</h2><div id="results">Nenhum resultado.</div><p><button class="btn" onclick="exportJSON()">Exportar resultados</button><button class="btn" onclick="clearLocal()">Limpar somente dados locais</button></p></div>
+</div>
+<script>
+function get(){try{return JSON.parse(localStorage.getItem("concurso.learning.questionResults.v1")||"[]")}catch(e){return[]}}
+function pct(n,d){return d?Math.round(n/d*100)+"%":"—"}
+function render(){const r=get();document.getElementById("questions").textContent=r.length;document.getElementById("coverage").textContent="—";document.getElementById("domain").textContent="—";document.getElementById("retention").textContent="—";document.getElementById("status").textContent=r.length?"Há evidência local de "+r.length+" respostas. Coverage/Domain/Retention exigem o registrador completo e regras de derivação.":"Nenhum resultado QTI local registrado.";document.getElementById("results").innerHTML=r.length?("<table><tr><th>Questão</th><th>Unidade</th><th>Acerto</th><th>Confiança</th><th>Tempo</th><th>Data</th></tr>"+r.slice().reverse().map(x=>"<tr><td>"+esc(x.id)+"</td><td>"+esc(x.unitId||"—")+"</td><td>"+(x.isCorrect?"✓":"✗")+"</td><td>"+(x.confidence??"—")+"</td><td>"+(x.responseTimeSec??"—")+"s</td><td>"+esc(x.timestamp||"")+"</td></tr>").join("")+"</table>"):"Nenhum resultado."}
+function esc(x){return String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",""":"&quot;","'":"&#39;"}[c]))}
+function exportJSON(){const b=new Blob([JSON.stringify(get(),null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="qti-results.json";a.click();URL.revokeObjectURL(a.href)}
+function clearLocal(){if(confirm("Limpar somente os resultados locais deste navegador?")){localStorage.removeItem("concurso.learning.questionResults.v1");render()}}
+render();window.addEventListener("concurso:qti-results",render)
+</script></body></html>
