@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Concurso Transpetro 2026",
+  "repository": "sezinando/Concurso",
+  "lastUpdatedAt": "2026-09-26",
+  "integrity": {
+    "rule": "Nunca inventar resultados. Ausência de evidência permanece null.",
+    "performanceRecorded": false
+  },
+  "units": [
+    {
+      "id": "BD-11.1-AULA00-P24-37",
+      "discipline": "Banco de Dados",
+      "editalItem": "11.1",
+      "description": "Independência de dados e arquitetura ANSI/SPARC",
+      "material": "Aula 00",
+      "pages": "24-26;33-37",
+      "relevance": "ALTA",
+      "state": "ESTUDADO",
+      "domain": null,
+      "retention": null,
+      "transfer": null,
+      "confidenceCalibration": null,
+      "lastEvidenceAt": null,
+      "nextReviewAt": null,
+      "openErrors": [],
+      "recurringErrors": [],
+      "lastQuestionId": null,
+      "notes": "Conteúdo mapeado como cobertura muito forte. Necessita evidência de recuperação/QTI para domínio."
+    },
+    {
+      "id": "BD-11.2-AULA01-P03-44",
+      "discipline": "Banco de Dados",
+      "editalItem": "11.2",
+      "description": "Modelo Entidade-Relacionamento — fundamentos até entidade associativa",
+      "material": "Aula 01",
+      "pages": "3-44",
+      "relevance": "MUITO_ALTA",
+      "state": "EM_ESTUDO",
+      "domain": null,
+      "retention": null,
+      "transfer": null,
+      "confidenceCalibration": null,
+      "lastEvidenceAt": null,
+      "nextReviewAt": null,
+      "openErrors": [],
+      "recurringErrors": [],
+      "lastQuestionId": null,
+      "notes": "Bloco estudado e trabalhado com QTI-10. Resultado do QTI não foi informado; não registrar pontuação sem evidência."
+    },
+    {
+      "id": "BD-11.2-AULA01-P45-54",
+      "discipline": "Banco de Dados",
+      "editalItem": "11.2",
+      "description": "Generalização, especialização, agregação e notações",
+      "material": "Aula 01",
+      "pages": "45-54",
+      "relevance": "ALTA",
+      "state": "NAO_INICIADO",
+      "domain": null,
+      "retention": null,
+      "transfer": null,
+      "confidenceCalibration": null,
+      "lastEvidenceAt": null,
+      "nextReviewAt": null,
+      "openErrors": [],
+      "recurringErrors": [],
+      "lastQuestionId": null,
+      "notes": "Pendente."
+    }
+  ],
+  "events": [],
+  "questionResults": [],
+  "reviewQueue": [],
+  "metrics": {
+    "coverage": null,
+    "domain": null,
+    "retention": null,
+    "transfer": null,
+    "combinedProgress": null,
+    "reason": "Registrador inicial. O edital completo e os resultados de questões ainda não estão integralmente registrados."
+  }
+}
