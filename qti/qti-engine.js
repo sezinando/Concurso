@@ -27,6 +27,7 @@
   }
 
   function renderQuestion(){
+    state.questionStartedAt=performance.now();
     const app=document.getElementById("qti-app");
     const q=state.questions[state.index];
     const pct=((state.index)/state.questions.length)*100;
@@ -45,6 +46,7 @@
         </div>
         ${source?`<div class="qti-source">${escapeHtml(source)}</div>`:""}
         <p class="qti-question">${escapeHtml(q.question)}</p>
+        <div class="qti-confidence"><label>Confiança: <select id="qti-confidence"><option value="">Não informar</option><option value="1">1 — chute</option><option value="2">2 — baixa</option><option value="3">3 — média</option><option value="4">4 — alta</option><option value="5">5 — muito alta</option></select></label></div>
         <div class="qti-options">
           ${LETTERS.filter(l=>q.options[l]!=null).map(l=>`
             <button class="qti-option" data-answer="${l}">
@@ -57,6 +59,7 @@
         </button>
       </section>`;
 
+    document.getElementById("qti-confidence").addEventListener("change",e=>state.confidence=e.target.value?Number(e.target.value):null);
     app.querySelectorAll(".qti-option").forEach(btn=>btn.addEventListener("click",()=>answer(btn.dataset.answer)));
     document.getElementById("qti-next").addEventListener("click",next);
   }
@@ -67,7 +70,7 @@
     const q=state.questions[state.index];
     const correct=letter===q.answer;
     if(correct)state.score++;
-    state.results.push({id:q.id,topic:q.topic,chosen:letter,correct:q.answer,isCorrect:correct});
+    state.results.push({id:q.id,topic:q.topic,chosen:letter,correct:q.answer,isCorrect:correct,confidence:state.confidence,responseTimeSec:Math.round((performance.now()-state.questionStartedAt)/100)/10,errorType:correct?null:"UNKNOWN",source:q.source,editalItem:q.editalItem||null,unitId:q.unitId||null});
 
     document.querySelectorAll(".qti-option").forEach(btn=>{
       btn.disabled=true;
@@ -92,6 +95,7 @@
     if(state.index===state.questions.length-1)return renderResult();
     state.index++;
     state.answered=false;
+    state.confidence=null;
     renderQuestion();
   }
 
@@ -122,7 +126,7 @@
   }
 
   function start(config){
-    state={config:normalize(config),index:0,score:0,answered:false,results:[]};
+    state={config:normalize(config),index:0,score:0,answered:false,results:[],confidence:null,questionStartedAt:performance.now()};
     state.title=state.config.title;
     state.questions=state.config.questions;
     renderQuestion();
