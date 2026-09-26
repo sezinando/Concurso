@@ -1,0 +1,23 @@
+{
+  "schemaVersion":"1.0",
+  "source":"Edital Transpetro 2026 + mapped study materials",
+  "status":"INICIAL",
+  "rule":"Units are observable competencies; null means not measured.",
+  "items":{
+    "11.1":{"name":"Independência de dados","units":[
+      "definir abstração de dados","distinguir independência física e lógica","identificar níveis interno/conceitual/externo","interpretar mapeamentos ANSI/SPARC"
+    ]},
+    "11.2":{"name":"Abordagem entidade-relacionamento","units":[
+      "distinguir modelo conceitual lógico e físico","definir entidade e ocorrência","classificar atributos","identificar chave/identificador","interpretar relacionamento","interpretar cardinalidade","interpretar participação","determinar grau","distinguir entidade forte e fraca","identificar entidade associativa","interpretar generalização e especialização","interpretar agregação","reconhecer notações Chen e Crow's Foot"
+    ]},
+    "11.3":{"name":"Modelo Relacional","units":[
+      "definir relação","distinguir tupla atributo e domínio","identificar chave candidata e chave primária","identificar chave estrangeira","interpretar integridade referencial","aplicar operações relacionais","mapear MER para modelo relacional"
+    ]},
+    "11.4":{"name":"Triggers e Stored Procedures","units":["distinguir trigger e stored procedure","identificar momento/evento de execução","interpretar parâmetros e efeitos"]},
+    "11.5":{"name":"SQL","units":["DDL","DML","DCL","TCL","SELECT","JOIN","agregação","subconsultas","views","restrições"]},
+    "11.6":{"name":"Alta disponibilidade","units":["definir disponibilidade","distinguir redundância failover e recuperação","interpretar RTO/RPO","reconhecer replicação e clustering"]},
+    "11.7":{"name":"Gerência de transações","units":["definir transação","explicar ACID","interpretar COMMIT e ROLLBACK","distinguir concorrência e isolamento","interpretar serialização","reconhecer recuperação e logs"]},
+    "11.8":{"name":"Gerência de bloqueios","units":["distinguir bloqueio compartilhado e exclusivo","interpretar granularidade","reconhecer deadlock e starvation","relacionar bloqueios e isolamento"]},
+    "11.9":{"name":"Gerência de desempenho","units":["identificar fatores de desempenho","interpretar índices","reconhecer otimização de consultas","interpretar estatísticas","relacionar CPU memória I/O e armazenamento"]}
+  }
+}
