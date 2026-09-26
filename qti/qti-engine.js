@@ -21,7 +21,8 @@
         question:q.question||q.enunciado||"",
         options:q.options||q.alternatives||{},
         answer:String(q.answer||q.gabarito||"").toUpperCase(),
-        explanation:q.explanation||q.justification||q.justificativa||""
+        explanation:q.explanation||q.justification||q.justificativa||"",
+        editalItem:q.editalItem||null, unitId:q.unitId||null, difficulty:q.difficulty||null, questionType:q.questionType||q.type||"ORIGINAL"
       }))
     };
   }
@@ -70,7 +71,7 @@
     const q=state.questions[state.index];
     const correct=letter===q.answer;
     if(correct)state.score++;
-    state.results.push({id:q.id,topic:q.topic,chosen:letter,correct:q.answer,isCorrect:correct,confidence:state.confidence,responseTimeSec:Math.round((performance.now()-state.questionStartedAt)/100)/10,errorType:correct?null:"UNKNOWN",source:q.source,editalItem:q.editalItem||null,unitId:q.unitId||null});
+    state.results.push({id:q.id,topic:q.topic,chosen:letter,correct:q.answer,isCorrect:correct,confidence:state.confidence,responseTimeSec:Math.round((performance.now()-state.questionStartedAt)/100)/10,errorType:correct?null:"UNKNOWN",source:q.source,editalItem:q.editalItem||null,unitId:q.unitId||null,difficulty:q.difficulty||null,questionType:q.questionType||"ORIGINAL"});
 
     document.querySelectorAll(".qti-option").forEach(btn=>{
       btn.disabled=true;
