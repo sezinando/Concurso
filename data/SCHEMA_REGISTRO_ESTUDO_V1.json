@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Concurso Transpetro Learning Registry",
+  "type":"object",
+  "required":["schemaVersion","units","events","questionResults","reviewQueue","metrics"],
+  "properties":{
+    "schemaVersion":{"type":"string"},
+    "units":{"type":"array"},
+    "events":{"type":"array"},
+    "questionResults":{"type":"array"},
+    "reviewQueue":{"type":"array"},
+    "metrics":{"type":"object"}
+  }
+}
