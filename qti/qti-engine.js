@@ -99,7 +99,17 @@
     renderQuestion();
   }
 
+  function persistResults(){
+    try{
+      const key="concurso.learning.questionResults.v1";
+      const previous=JSON.parse(localStorage.getItem(key)||"[]");
+      localStorage.setItem(key,JSON.stringify(previous.concat(state.results.map(r=>({...r,timestamp:new Date().toISOString()})))));
+      window.dispatchEvent(new CustomEvent("concurso:qti-results",{detail:state.results}));
+    }catch(e){console.warn("QTI: não foi possível persistir resultados localmente.",e);}
+  }
+
   function renderResult(){
+    persistResults();
     const app=document.getElementById("qti-app");
     const total=state.questions.length;
     const pct=Math.round(state.score/total*100);
