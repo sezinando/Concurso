@@ -14,6 +14,7 @@
     }
     return {
       title:config.title||"QTI — Concurso",
+      qti:config.qti||"QTI", rodada:config.rodada||null, editalItem:config.editalItem||null, tema:config.tema||null, sourceType:config.sourceType||null, eventId:config.eventId||null,
       questions:config.questions.map((q,i)=>({
         id:q.id??i+1,
         source:q.source||"",
@@ -111,6 +112,32 @@
 
   function renderResult(){
     persistResults();
+    const eventId = (state.config.eventId || "QTI-"+Date.now());
+    const total = state.questions.length;
+    const errors = state.results.filter(r=>!r.isCorrect);
+    const payload = {
+      eventId,
+      occurredAt:new Date().toISOString(),
+      qti:state.config.qti || "QTI",
+      rodada:state.config.rodada || null,
+      editalItem:state.config.editalItem || null,
+      tema:state.config.tema || null,
+      total,
+      acertos:state.score,
+      erros:total-state.score,
+      accuracy:state.score/total,
+      tempoTotalSec:Math.round(state.results.reduce((a,r)=>a+(r.responseTimeSec||0),0)*10)/10,
+      tempoMedioSec:Math.round((state.results.reduce((a,r)=>a+(r.responseTimeSec||0),0)/total)*10)/10,
+      sourceType:state.config.sourceType || null,
+      nextAction:state.score===total ? "SPACED_RETEST" : "REPAIR_AND_RETEST",
+      diagnostico:[...new Set(errors.map(r=>r.topic).filter(Boolean))],
+      questionResults:state.results.map(r=>({
+        questionId:r.id, topic:r.topic, result:r.isCorrect?"CORRETA":"INCORRETA",
+        selected:r.chosen, correctAnswer:r.correct, responseTimeSec:r.responseTimeSec,
+        confidence:r.confidence, errorType:r.errorType
+      }))
+    };
+    const json=JSON.stringify(payload,null,2);
     const app=document.getElementById("qti-app");
     const total=state.questions.length;
     const pct=Math.round(state.score/total*100);
@@ -131,10 +158,22 @@
                ${topics.length?`<p><strong>Assuntos:</strong> ${topics.map(escapeHtml).join(", ")}</p>`:""}`
             : "<p>Nenhuma questão errada neste QTI.</p>"}
         </div>
+        <div class="qti-json-block">
+          <h3>JSON para consolidação</h3>
+          <textarea id="qti-json" readonly></textarea>
+          <button class="qti-copy" id="qti-copy">Copiar JSON</button>
+        </div>
         <button class="qti-restart" id="qti-restart">Refazer QTI</button>
       </section>`;
+    document.getElementById("qti-json").value=json;
+    document.getElementById("qti-copy").addEventListener("click",async()=>{
+      const b=document.getElementById("qti-copy");
+      try{await navigator.clipboard.writeText(json);b.textContent="✓ JSON copiado";setTimeout(()=>b.textContent="Copiar JSON",1800)}
+      catch(e){const t=document.getElementById("qti-json");t.select();document.execCommand("copy");b.textContent="✓ JSON copiado";}
+    });
     document.getElementById("qti-restart").addEventListener("click",()=>start(state.config));
   }
+
 
   function start(config){
     state={config:normalize(config),index:0,score:0,answered:false,results:[],confidence:null,questionStartedAt:performance.now()};
