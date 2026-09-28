@@ -143,6 +143,20 @@ Antes de entregar qualquer QTI-[N], verificar:
 - [ ] Fonte/`sourceType` identificado.
 - [ ] `nextAction` informado.
 
+
+## 7. Fidelidade das questões reais
+
+Quando o QTI for composto por questões reais, o checklist de aceitação deve verificar também a **fidelidade visual e textual da fonte**.
+
+- [ ] Enunciado preservado.
+- [ ] Alternativas preservadas.
+- [ ] Banca/ano/concurso identificados quando disponíveis.
+- [ ] Destaques originais relevantes preservados.
+- [ ] Se houver referência a “palavra destacada”, “pronome destacado”, “trecho sublinhado” ou equivalente, o elemento correspondente está realmente destacado na interface.
+- [ ] Nenhuma marcação necessária à resolução foi perdida na conversão para HTML.
+
+**Falha crítica:** remover uma marcação que seja objeto explícito da questão. A questão deve ser corrigida antes da aplicação.
+
 ## Histórico da alteração
 
 **2026-09-28** — Inclusão do requisito de consolidado final copiável após a execução de um QTI-5 de reparo. Foi identificado que armazenar o resultado apenas em `localStorage` não atende ao fluxo de registro do projeto.
