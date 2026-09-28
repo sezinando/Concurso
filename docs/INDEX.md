@@ -1,5 +1,8 @@
 # Índice da Documentação — Concurso
 
+## Metodologia e estratégia global
+- [Overview — Metodologia e Estratégia de Estudo Programado](OVERVIEW_METODOLOGIA_ESTRATEGIA.md)
+
 ## Controle
 - [PROGRESSO](../PROGRESSO.md)
 - [Controle de progresso](CONTROLE_PROGRESSO.md)
