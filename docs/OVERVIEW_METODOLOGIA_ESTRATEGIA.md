@@ -297,7 +297,37 @@ MEDIÇÃO
 REAPRENDIZAGEM
 ```
 
-## 20. Regra de ouro
+## 20. Isolamento de desempenho por disciplina
+
+O desempenho deve ser controlado **individualmente por disciplina**.
+
+Cada disciplina do edital deve possuir seu próprio espaço de desempenho, seguindo a convenção:
+
+`<Disciplina>/DESEMPENHO.md`
+
+Exemplo atual:
+
+`Portugues/DESEMPENHO.md`
+
+Devem permanecer separados por disciplina:
+- tempo de estudo;
+- cobertura;
+- domínio;
+- retenção;
+- transferência;
+- acurácia;
+- confiança;
+- questões;
+- erros;
+- retestes;
+- estados;
+- histórico.
+
+O consolidado geral pode combinar os dados posteriormente, mas deve preservar a origem disciplinar. Uma disciplina não pode alterar ou mascarar o desempenho de outra.
+
+Essa é uma **regra comportamental global** para todos os chats, QTI, dashboards, registros e futuras disciplinas do projeto.
+
+## 21. Regra de ouro
 
 > **Não queremos medir quanto estudamos. Queremos medir quanto conseguimos recuperar, aplicar, reter e transferir.**
 
