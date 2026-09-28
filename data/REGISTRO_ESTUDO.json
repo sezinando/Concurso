@@ -2,7 +2,7 @@
   "schemaVersion": "1.1",
   "project": "Concurso Transpetro 2026",
   "repository": "sezinando/Concurso",
-  "lastUpdatedAt": "2026-09-26",
+  "lastUpdatedAt": "2026-09-28",
   "integrity": {
     "rule": "Nunca inventar resultados. Ausência de evidência permanece null.",
     "performanceRecorded": true
@@ -1256,17 +1256,20 @@
       "material": null,
       "pages": null,
       "relevance": "MUITO_ALTA",
-      "state": "ESTUDADO",
+      "state": "REVISAO",
       "domain": null,
       "retention": null,
       "transfer": null,
       "confidenceCalibration": null,
-      "lastEvidenceAt": "2026-09-26T21:40:35.346Z",
+      "lastEvidenceAt": "2026-09-28T18:38:01.579Z",
       "nextReviewAt": null,
-      "openErrors": [],
+      "openErrors": [
+        "Cardinalidade e participação",
+        "Entidade associativa"
+      ],
       "recurringErrors": [],
-      "lastQuestionId": "QTI-WEB-02",
-      "notes": "Evidência inicial: QTI-WEB-2, 2/2 (100%), 41s total. Testados os tópicos Entidade fraca e Cardinalidade. Confiança não informada. Reteste espaçado necessário; não consolidado."
+      "lastQuestionId": "QTI3-A01-03",
+      "notes": "QTI-3 em 28/09/2026: 1/3 (33,3%). Erros em cardinalidade/participação (chute) e entidade associativa (interpretação). Entidade fraca acertada. Confiança não informada. Reparar e retestar antes de avançar."
     },
     {
       "id": "E4-11-03",
@@ -1760,6 +1763,75 @@
         "sourceType normalizado de CESGRANRIO_ADAPTADA para MULTIBANCA_ADAPTADA: as questões foram adaptadas de FUNDATEC e Instituto AOCP, não de CESGRANRIO.",
         "confidence permaneceu nao_informada; não inferir confiança a partir do acerto."
       ]
+    },
+    {
+      "schemaVersion": 1,
+      "eventType": "QTI_ASSESSMENT_COMPLETED",
+      "eventId": "QTI3-AULA01-1790620681578",
+      "occurredAt": "2026-09-28T18:38:01.579Z",
+      "editalItem": "11.2",
+      "activity": "questoes",
+      "source": "QTI-3_Aula01_MER",
+      "assessment": {
+        "totalQuestions": 3,
+        "validQuestions": 3,
+        "correct": 1,
+        "incorrect": 2,
+        "accuracy": 0.3333333333333333,
+        "totalResponseTimeSec": 59,
+        "averageResponseTimeSec": 19.666666666666668
+      },
+      "questionResults": [
+        {
+          "id": "QTI3-A01-01",
+          "selected": "B",
+          "correct": true,
+          "confidence": "nao_informada",
+          "responseTimeSec": 12,
+          "errorType": null,
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "source": "Adaptada de FUNDATEC — IFC-SC — Professor EBTT — Informática/Banco de Dados — 2026, Q4028002",
+          "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/97a361db-43",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Entidade fraca",
+          "difficulty": "média",
+          "questionType": "CONCURSO_ADAPTADA"
+        },
+        {
+          "id": "QTI3-A01-02",
+          "selected": "D",
+          "correct": false,
+          "confidence": "nao_informada",
+          "responseTimeSec": 17,
+          "errorType": "guess",
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "source": "Adaptada de Instituto Consulplan — Prefeitura de Campos dos Goytacazes/RJ — Analista de Sistemas — 2024, Q2351713",
+          "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/b78dd4a7-ba",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Cardinalidade e participação",
+          "difficulty": "média",
+          "questionType": "CONCURSO_ADAPTADA"
+        },
+        {
+          "id": "QTI3-A01-03",
+          "selected": "A",
+          "correct": false,
+          "confidence": "nao_informada",
+          "responseTimeSec": 30,
+          "errorType": "interpretation",
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "source": "Adaptada de FUNDATEC — BRDE — Analista de Sistemas — Administração de Banco de Dados — 2025, Q3696938",
+          "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/c9f2d681-b5",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Entidade associativa",
+          "difficulty": "fácil",
+          "questionType": "CONCURSO_ADAPTADA"
+        }
+      ],
+      "nextAction": "REPAIR_AND_RETEST"
     }
   ],
   "questionResults": [
@@ -1796,6 +1868,57 @@
       "difficulty": "fácil",
       "questionType": "CONCURSO_ADAPTADA",
       "eventId": "QTI-WEB-2-20260926213948"
+    },
+    {
+      "id": "QTI3-A01-01",
+      "selected": "B",
+      "correct": true,
+      "confidence": "nao_informada",
+      "responseTimeSec": 12,
+      "errorType": null,
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "source": "Adaptada de FUNDATEC — IFC-SC — Professor EBTT — Informática/Banco de Dados — 2026, Q4028002",
+      "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/97a361db-43",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Entidade fraca",
+      "difficulty": "média",
+      "questionType": "CONCURSO_ADAPTADA",
+      "eventId": "QTI3-AULA01-1790620681578"
+    },
+    {
+      "id": "QTI3-A01-02",
+      "selected": "D",
+      "correct": false,
+      "confidence": "nao_informada",
+      "responseTimeSec": 17,
+      "errorType": "guess",
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "source": "Adaptada de Instituto Consulplan — Prefeitura de Campos dos Goytacazes/RJ — Analista de Sistemas — 2024, Q2351713",
+      "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/b78dd4a7-ba",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Cardinalidade e participação",
+      "difficulty": "média",
+      "questionType": "CONCURSO_ADAPTADA",
+      "eventId": "QTI3-AULA01-1790620681578"
+    },
+    {
+      "id": "QTI3-A01-03",
+      "selected": "A",
+      "correct": false,
+      "confidence": "nao_informada",
+      "responseTimeSec": 30,
+      "errorType": "interpretation",
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "source": "Adaptada de FUNDATEC — BRDE — Analista de Sistemas — Administração de Banco de Dados — 2025, Q3696938",
+      "sourceUrl": "https://www.qconcursos.com/questoes-de-concursos/questoes/c9f2d681-b5",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Entidade associativa",
+      "difficulty": "fácil",
+      "questionType": "CONCURSO_ADAPTADA",
+      "eventId": "QTI3-AULA01-1790620681578"
     }
   ],
   "reviewQueue": [
@@ -1803,10 +1926,10 @@
       "unitId": "E4-11-02",
       "editalItem": "11.2",
       "priorityScore": null,
-      "reason": "Acerto inicial em 2 questões, mas confiança não informada e amostra pequena; reteste espaçado necessário.",
-      "nextReviewAt": "2026-10-02T00:00:00.000Z",
-      "recommendedActivity": "reteste_espacado",
-      "evidenceNeeded": "Questões variadas de ER/MER, incluindo atributos, participação, grau, entidade associativa, generalização/especialização e interpretação de DER."
+      "reason": "Desempenho recente 33,3%, com erro de chute em cardinalidade/participação e erro de interpretação em entidade associativa.",
+      "nextReviewAt": "2026-09-29T00:00:00.000Z",
+      "recommendedActivity": "reparo_e_reteste",
+      "evidenceNeeded": "Revisar cardinalidade mínima/máxima, participação e entidade associativa; depois realizar questões variadas de 11.2."
     }
   ],
   "metrics": {
@@ -1815,6 +1938,6 @@
     "retention": null,
     "transfer": null,
     "combinedProgress": null,
-    "reason": "Há evidência de aprendizagem em 11.2, mas domínio, retenção e transferência globais permanecem não consolidados. Coverage continua baseada na cobertura de conteúdo, não em desempenho."
+    "reason": "Há evidência de aprendizagem em 11.2, porém o resultado mais recente (33,3%) exige revisão e reteste. Domínio, retenção e transferência globais permanecem não consolidados."
   }
 }
