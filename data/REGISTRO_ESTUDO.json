@@ -1261,15 +1261,17 @@
       "retention": null,
       "transfer": null,
       "confidenceCalibration": null,
-      "lastEvidenceAt": "2026-09-28T18:38:01.579Z",
+      "lastEvidenceAt": "2026-09-28T20:33:40.695Z",
       "nextReviewAt": null,
       "openErrors": [
-        "Cardinalidade e participação",
-        "Entidade associativa"
+        "Participação total × parcial",
+        "Integração cardinalidade + entidade associativa"
       ],
-      "recurringErrors": [],
-      "lastQuestionId": "QTI3-A01-03",
-      "notes": "QTI-3 em 28/09/2026: 1/3 (33,3%). Erros em cardinalidade/participação (chute) e entidade associativa (interpretação). Entidade fraca acertada. Confiança não informada. Reparar e retestar antes de avançar."
+      "recurringErrors": [
+        "Participação/cardinalidade"
+      ],
+      "lastQuestionId": "QTI5-R2-05",
+      "notes": "QTI-5 Reparo Rodada 2 em 28/09/2026: 3/5 (60%). Cardinalidade × participação e entidade associativa isolada foram acertadas. Erros por desconhecimento em participação total × parcial e na integração cardinalidade + entidade associativa; Q5 consumiu 279s. Confiança não informada. Reparo e reteste necessários antes de avançar."
     },
     {
       "id": "E4-11-03",
@@ -1832,6 +1834,93 @@
         }
       ],
       "nextAction": "REPAIR_AND_RETEST"
+    },
+    {
+      "schemaVersion": 1,
+      "eventType": "QTI_ASSESSMENT_COMPLETED",
+      "eventId": "QTI5-MER-REPARO2-1790627620695",
+      "occurredAt": "2026-09-28T20:33:40.695Z",
+      "editalItem": "11.2",
+      "activity": "questoes",
+      "source": "QTI-5_MER_REPARO_RODADA2",
+      "assessment": {
+        "totalQuestions": 5,
+        "validQuestions": 5,
+        "correct": 3,
+        "incorrect": 2,
+        "accuracy": 0.6,
+        "totalResponseTimeSec": 367,
+        "averageResponseTimeSec": 73.4
+      },
+      "questionResults": [
+        {
+          "id": "QTI5-R2-01",
+          "selected": "B",
+          "correct": true,
+          "confidence": "nao_informada",
+          "responseTimeSec": 28,
+          "errorType": null,
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Cardinalidade × participação"
+        },
+        {
+          "id": "QTI5-R2-02",
+          "selected": "B",
+          "correct": false,
+          "confidence": "nao_informada",
+          "responseTimeSec": 12,
+          "errorType": "desconhecimento",
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Participação total × parcial"
+        },
+        {
+          "id": "QTI5-R2-03",
+          "selected": "C",
+          "correct": true,
+          "confidence": "nao_informada",
+          "responseTimeSec": 27,
+          "errorType": null,
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Entidade associativa"
+        },
+        {
+          "id": "QTI5-R2-04",
+          "selected": "B",
+          "correct": true,
+          "confidence": "nao_informada",
+          "responseTimeSec": 21,
+          "errorType": null,
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Entidade associativa × entidade fraca"
+        },
+        {
+          "id": "QTI5-R2-05",
+          "selected": "D",
+          "correct": false,
+          "confidence": "nao_informada",
+          "responseTimeSec": 279,
+          "errorType": "desconhecimento",
+          "sourceType": "MULTIBANCA_ADAPTADA",
+          "editalItem": "11.2",
+          "unitId": "E4-11-02",
+          "topic": "Integração: cardinalidade + entidade associativa"
+        }
+      ],
+      "nextAction": "NOVO_REPARO_E_RETESTE",
+      "diagnostic": [
+        "Participação total × parcial: erro por desconhecimento.",
+        "Integração cardinalidade + entidade associativa: erro por desconhecimento; Q5 levou 279s.",
+        "Cardinalidade × participação: acertada.",
+        "Entidade associativa e distinção de entidade fraca: acertadas."
+      ]
     }
   ],
   "questionResults": [
@@ -1919,6 +2008,66 @@
       "difficulty": "fácil",
       "questionType": "CONCURSO_ADAPTADA",
       "eventId": "QTI3-AULA01-1790620681578"
+    },
+    {
+      "id": "QTI5-R2-01",
+      "selected": "B",
+      "correct": true,
+      "confidence": "nao_informada",
+      "responseTimeSec": 28,
+      "errorType": null,
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Cardinalidade × participação"
+    },
+    {
+      "id": "QTI5-R2-02",
+      "selected": "B",
+      "correct": false,
+      "confidence": "nao_informada",
+      "responseTimeSec": 12,
+      "errorType": "desconhecimento",
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Participação total × parcial"
+    },
+    {
+      "id": "QTI5-R2-03",
+      "selected": "C",
+      "correct": true,
+      "confidence": "nao_informada",
+      "responseTimeSec": 27,
+      "errorType": null,
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Entidade associativa"
+    },
+    {
+      "id": "QTI5-R2-04",
+      "selected": "B",
+      "correct": true,
+      "confidence": "nao_informada",
+      "responseTimeSec": 21,
+      "errorType": null,
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Entidade associativa × entidade fraca"
+    },
+    {
+      "id": "QTI5-R2-05",
+      "selected": "D",
+      "correct": false,
+      "confidence": "nao_informada",
+      "responseTimeSec": 279,
+      "errorType": "desconhecimento",
+      "sourceType": "MULTIBANCA_ADAPTADA",
+      "editalItem": "11.2",
+      "unitId": "E4-11-02",
+      "topic": "Integração: cardinalidade + entidade associativa"
     }
   ],
   "reviewQueue": [
@@ -1926,10 +2075,10 @@
       "unitId": "E4-11-02",
       "editalItem": "11.2",
       "priorityScore": null,
-      "reason": "Desempenho recente 33,3%, com erro de chute em cardinalidade/participação e erro de interpretação em entidade associativa.",
+      "reason": "Desempenho recente 60%, com erro por desconhecimento em participação total × parcial e na integração cardinalidade + entidade associativa; Q5 teve 279s.",
       "nextReviewAt": "2026-09-29T00:00:00.000Z",
       "recommendedActivity": "reparo_e_reteste",
-      "evidenceNeeded": "Revisar cardinalidade mínima/máxima, participação e entidade associativa; depois realizar questões variadas de 11.2."
+      "evidenceNeeded": "Revisar participação total/parcial, cardinalidade mínima/máxima e integração N:M + entidade associativa; depois realizar reteste variado, sem repetição literal."
     }
   ],
   "metrics": {
