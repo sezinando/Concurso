@@ -36,6 +36,18 @@ O QTI deve apresentar:
 8. botão de próxima questão;
 9. indicação de progresso.
 
+
+### 2.1 Fidelidade visual de questões reais
+
+Para **questões reais de concurso**, o padrão visual também deve preservar marcações de significado presentes na fonte original. O destaque faz parte do conteúdo quando a questão o utiliza para indicar o objeto da análise.
+
+Exemplos:
+- “pronome destacado” → o pronome deve aparecer efetivamente destacado;
+- palavra destacada → a palavra deve permanecer visualmente identificável;
+- trecho sublinhado/itálico/negrito → preservar a marcação quando ela for relevante à questão.
+
+**Não apresentar como texto corrido uma questão cuja resolução dependa de um destaque que foi removido.** Isso é considerado falha de fidelidade e deve ser corrigido antes da aplicação do QTI.
+
 ## 3. Estados das alternativas
 ### Estado normal
 - Fundo grafite escuro.
