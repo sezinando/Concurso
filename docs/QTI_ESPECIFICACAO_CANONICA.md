@@ -133,6 +133,26 @@ Analisar, quando houver evidência:
 - necessidade de reteste;
 - espaçamento.
 
+
+### 7.1 Fidelidade do conteúdo original e destaques
+
+Quando o QTI utilizar **questões reais de concurso**, a apresentação deve preservar não apenas o texto, mas também os elementos de formatação que carregam significado para a resolução da questão.
+
+Isso inclui, quando presentes na fonte:
+
+- negrito;
+- itálico;
+- sublinhado;
+- palavras ou expressões explicitamente destacadas;
+- trechos destacados no enunciado ou nas alternativas;
+- símbolos, sinais e demais marcações relevantes para a interpretação.
+
+**Regra obrigatória:** se o enunciado disser, por exemplo, **“pronome destacado”**, o pronome efetivamente analisado deve aparecer visualmente destacado no QTI. Não é aceitável exibir apenas a frase em texto corrido.
+
+A ausência de um destaque que seja parte da informação da questão constitui **defeito de fidelidade da questão** e deve ser corrigida antes da execução/uso diagnóstico.
+
+Para questões reais, não substituir o conteúdo original por uma paráfrase. Se uma adaptação for necessária, ela deve ser explicitamente marcada como **ADAPTADA** e o elemento modificado deve ser identificado.
+
 ## 8. Regras de decisão
 
 - 100% não significa automaticamente domínio definitivo.
