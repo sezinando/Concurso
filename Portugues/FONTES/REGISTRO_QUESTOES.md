@@ -110,3 +110,23 @@ Cada questão real deverá preservar, quando disponível:
 O registro de origem responde "qual questão já foi vista".**
 
 Os dois registros são complementares e não devem ser confundidos.
+
+
+## Seleção preparada — QTI-10 Pronomes (aplicação pendente)
+
+Em 2026-09-29 foi gerado o QTI-10 **Pronomes — questões CESGRANRIO**. As questões abaixo foram selecionadas, mas **ainda não contam como expostas** até que o usuário conclua a aplicação e envie o JSON do QTI.
+
+| ID de origem | Concurso/banca | Tema | Estado |
+|---|---|---|---|
+| Q3057430 | CESGRANRIO — Banco da Amazônia/2024 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q2217909 | CESGRANRIO — Banco do Brasil/2023 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q2387800 | CESGRANRIO — UNEMAT/2024 | Pronomes pessoais oblíquos | Selecionada — aplicação pendente |
+| Q1842516 | CESGRANRIO — Caixa/2021 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q1830854 | CESGRANRIO — Banco do Brasil/2021 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q1829777 | CESGRANRIO — Banco do Brasil/2021 | Colocação pronominal / infinitivo | Selecionada — aplicação pendente |
+| Q1825959 | CESGRANRIO — Banco do Brasil/2021 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q1824846 | CESGRANRIO — Banco do Brasil/2021 | Colocação pronominal | Selecionada — aplicação pendente |
+| Q2128679 | CESGRANRIO — Banco do Brasil/2023 | Colocação pronominal / mesóclise | Selecionada — aplicação pendente |
+| Q122504 | CESGRANRIO — EPE/2009 | Pronomes relativos | Selecionada — aplicação pendente |
+
+**Regra:** a seleção acima não altera a contagem de exposição. Após a aplicação, o JSON do QTI deverá converter essas entradas em histórico de exposição com data, resultado, tempo e finalidade.
