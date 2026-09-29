@@ -15,7 +15,21 @@
 |---|---|---:|---:|---:|---:|
 | QTI-10 | Avaliação Aula 00 | 10 | 9 | 90% | 237,5 s |
 | QTI-2 | Questões reais referenciadas | 2 | 2 | 100% | 44,7 s |
-| **Acumulado** | | **12** | **11** | **91,7%** | **282,2 s** |
+| QTI-5 | Questões reais — CESGRANRIO/TRANSPETRO 2023 | 5 | 5 | 100% | 227,1 s |
+| **Acumulado** | | **17** | **16** | **94,1%** | **509,3 s** |
+
+### Checkpoint — QTI-5 (2026-09-29)
+
+- **Origem:** e-book fornecido pelo usuário — *Língua Portuguesa - Petrobras - Questões Comentadas da Cesgranrio*.
+- **Recorte:** 5 questões reais de **CESGRANRIO — TRANSPETRO/2023**.
+- **Identificadores:** TP2023-Q01 a TP2023-Q05.
+- **Resultado:** 5/5 (100%).
+- **Tempo:** 227,1 s; média 45,4 s/questão.
+- **Confiança registrada:** Q01 = MÉDIA; Q02–Q05 sem registro.
+- **Temas:** interpretação/sentido; interpretação/inferência; crase/regência/semântica; correlação verbal; semântica/substituição vocabular.
+- **Diagnóstico:** evidência positiva de aplicação em questões reais, mas 100% isolado não equivale a consolidação.
+- **Ponto de atenção de tempo:** Q03 consumiu 104,9 s; Q04 57,4 s. Não classificar o desempenho apenas pelo percentual.
+- **Ação:** espaçamento + nova amostra CESGRANRIO, evitando repetição automática das mesmas questões. Repetir apenas de forma proposital para retenção/reteste.
 
 ### Evidência específica
 
