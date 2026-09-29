@@ -1,10 +1,28 @@
-# MapaPronomesAula00 — Descritivo mestre para mapa mental
+# MapaPronomesAula00 — Prompt mestre para mapa mental pedagógico
 
-## Finalidade
+## OBJETIVO
 
-Criar um **mapa mental visual de alta densidade cognitiva**, baseado no conteúdo estudado em **Pronomes — Aula 00 de Língua Portuguesa**, com foco em revisão rápida, recuperação ativa e aplicação em questões da CESGRANRIO para o concurso Transpetro 2026.
+Crie um **mapa mental visual de aprendizagem e revisão**, não um índice, sumário ou árvore de títulos.
 
-O mapa não deve ser uma simples lista de regras. Deve representar visualmente as **relações entre conceito → função → exemplo → armadilha de prova → procedimento de análise**.
+Tema:
+
+**PRONOMES — AULA 00 | Transpetro 2026 | CESGRANRIO**
+
+O mapa deve permitir que o aluno **reconstrua mentalmente o conteúdo**, compreenda as relações entre os conceitos e saiba **como resolver uma questão de concurso**.
+
+### REGRA FUNDAMENTAL
+
+**NÃO transforme cada tópico em apenas uma caixa com um título.**
+
+O resultado anterior ficou parecido com um menu porque os nós continham somente nomes como “Eu vs Mim”, “LHE” e “Colocação Pronominal”.
+
+Isso NÃO atende ao objetivo.
+
+Cada ramo importante precisa conter, visualmente:
+
+**CONCEITO → FUNÇÃO/CRITÉRIO → EXEMPLO → CONTRASTE → ARMADILHA → DECISÃO DE PROVA**
+
+Um nó que contenha apenas o nome do assunto deve ser considerado **incompleto**.
 
 ---
 
@@ -14,23 +32,38 @@ O mapa não deve ser uma simples lista de regras. Deve representar visualmente a
 
 Subtítulo:
 
-**“Não olhe apenas para o pronome. Descubra o que ele está fazendo na oração.”**
+> **“Não pergunte apenas que pronome é esse. Pergunte: o que ele está fazendo aqui?”**
 
-O nó central deve funcionar como a regra-mãe de todo o mapa.
+O nó central deve ser visualmente destacado.
+
+A partir dele, criar os principais ramos:
+
+1. Regra-mãe / fluxo sintático
+2. OD × OI
+3. Funções de LHE
+4. EU × MIM
+5. Oblíquo como sujeito do infinitivo
+6. Pronomes combinados
+7. Pronomes de tratamento
+8. Colocação pronominal
+9. Questões CESGRANRIO / autópsia
+10. Armadilhas da banca
+11. Protocolo rápido de prova
+12. Trajetória de aprendizagem
 
 ---
 
-# 2. PRIMEIRO RAMO — REGRA-MÃE
+# 2. REGRA-MÃE — NÃO É APENAS UM TÍTULO
 
-### COMO ANALISAR UM PRONOME?
+Criar um **fluxograma visual real**, e não somente uma caixa chamada “Regra-Mãe”.
 
-Representar como um fluxo:
+Mostrar:
 
 **VERBO**
 ↓
 **O que o verbo exige?**
 ↓
-**Existe preposição?**
+**Há preposição?**
 ↓
 **Qual é o complemento?**
 ↓
@@ -38,444 +71,717 @@ Representar como um fluxo:
 ↓
 **Qual é o papel do pronome?**
 
-Destacar:
+Ao lado do fluxo, colocar:
 
 > **FUNÇÃO SINTÁTICA ANTES DA CLASSIFICAÇÃO DO PRONOME**
 
-Esse deve ser um dos elementos visuais mais importantes do mapa.
+Adicionar um exemplo:
+
+**Eu lhe entreguei o documento.**
+
+Visualmente:
+
+VERBO = entreguei  
+↓  
+quem entrega, entrega algo a alguém  
+↓  
+“o documento” = OD  
+“a alguém” = OI  
+↓  
+“lhe” = OI
+
+O aluno deve conseguir enxergar o raciocínio, não somente a conclusão.
 
 ---
 
-# 3. RAMO — OBJETO DIRETO × OBJETO INDIRETO
+# 3. OD × OI — MAPEAR A RELAÇÃO
 
-### Objeto Direto
+Não escrever apenas “OD vs OI”.
 
-Exemplo:
+Criar dois caminhos paralelos.
+
+## OBJETO DIRETO
 
 **Eu encontrei o professor.**
 
-→ “o professor” = OD
+↓  
+“o professor”
 
-Pronominalização:
+↓  
+**OD**
 
+↓  
 **Eu o encontrei.**
 
-### Objeto Indireto
-
-Exemplo:
+## OBJETO INDIRETO
 
 **Eu gosto de música.**
 
-→ “de música” = OI
+↓  
+“de música”
 
-Exemplo:
+↓  
+**OI**
+
+Outro exemplo:
 
 **Eu lhe entreguei o documento.**
 
-→ “lhe” = OI
+↓  
+“lhe” = OI
 
-Criar contraste visual:
+Adicionar um bloco:
 
-**OD → sem preposição exigida**
-**OI → com preposição exigida**
+### COMO DECIDIR?
 
-Não reduzir a regra a uma fórmula mecânica: destacar que a análise depende da regência do verbo.
+**O verbo exige complemento sem preposição?**
+→ tendência a OD.
+
+**O verbo exige complemento preposicionado?**
+→ OI.
+
+Mas deixar claro:
+
+> **A classificação depende da regência do verbo e da estrutura da oração. Não use apenas a aparência.**
 
 ---
 
-# 4. RAMO — O PRONOME “LHE”
+# 4. “LHE” — MOSTRAR QUE A MESMA FORMA PODE TER FUNÇÕES DIFERENTES
 
-Criar um submapa:
+Criar visualmente um nó central:
 
-## LHE NÃO TEM UMA ÚNICA FUNÇÃO
+## LHE
 
-### Caso 1 — Objeto indireto
+A partir dele, abrir caminhos.
+
+### CAMINHO A — OBJETO INDIRETO
 
 **Eu lhe entreguei o documento.**
 
-→ lhe = OI
+↓  
+“lhe” = a alguém
 
-### Caso 2 — Complemento nominal
+↓  
+**OI**
+
+### CAMINHO B — COMPLEMENTO NOMINAL
 
 **O resultado lhe foi favorável.**
 
-→ lhe completa o sentido de “favorável”
+↓  
+“lhe” completa “favorável”
 
-### Comparação
+↓  
+**COMPLEMENTO NOMINAL**
+
+Depois criar a pergunta de diagnóstico:
+
+> **Quem está pedindo o complemento?**
+
+**VERBO → OI**
+
+**NOME/ADJETIVO → COMPLEMENTO NOMINAL**
+
+Adicionar contraste:
 
 **Eu gosto dele.**
-→ complemento do verbo
+→ relação com o verbo.
 
 **Tenho necessidade dele.**
-→ complemento do nome
+→ relação com o nome.
 
-**O resultado lhe foi favorável.**
-→ complemento do adjetivo
-
-Regra visual:
-
-> **Pergunte: quem está pedindo o complemento — o verbo ou o nome/adjetivo?**
+O mapa deve tornar essa diferença visualmente óbvia.
 
 ---
 
-# 5. RAMO — EU × MIM
+# 5. EU × MIM — MAPA DE DECISÃO
 
-Criar um contraste grande e visual.
+Não criar apenas uma caixa “Eu vs Mim”.
+
+Criar:
+
+## EU × MIM
 
 ### MIM
 
 **para mim**
 
-Quando o pronome funciona como complemento da preposição.
+↓  
+complemento da preposição
+
+Exemplo:
+
+**O professor trouxe o exercício para mim.**
 
 ### EU
 
-**para eu estudar**
+**para eu resolver**
 
-Porque “eu” é sujeito do infinitivo “estudar”.
-
-Pergunta-chave:
-
-> **Quem pratica a ação do infinitivo?**
+↓  
+“eu” = sujeito do infinitivo
 
 Exemplo:
 
 **O professor trouxe o exercício para eu resolver.**
 
-→ Quem vai resolver? **Eu.**
+Adicionar a pergunta:
 
-### Outro contraste
+> **Quem pratica a ação do infinitivo?**
+
+“Eu.”
+
+→ **para eu resolver**
+
+Adicionar:
 
 **Entre mim e você...**
 
-→ “mim” é complemento da preposição.
+→ “mim” = complemento da preposição.
 
-Destacar:
+Bloco de armadilha:
 
-> **Não memorize apenas “para eu” e “para mim”. Identifique a função.**
-
----
-
-# 6. RAMO — PRONOME OBLÍQUO COMO SUJEITO DO INFINITIVO
-
-Título visual:
-
-## A “PEGADINHA ELEGANTE”
-
-Exemplos:
-
-**Deixe-o entrar.**
-→ “o” relaciona-se ao infinitivo “entrar”.
-
-**Mandei-o entrar.**
-
-**Vi-o chegar.**
-
-**Ouvi-a cantar.**
-
-Contraste:
-
-**Eu o encontrei.**
-
-→ aqui “o” exerce outra função.
-
-Mensagem central:
-
-> **A mesma forma pronominal pode exercer funções diferentes dependendo da estrutura da oração.**
+> ⚠️ **Não memorize simplesmente “para eu” e “para mim”. Descubra a função.**
 
 ---
 
-# 7. RAMO — PRONOMES COMBINADOS
+# 6. OBLÍQUO COMO SUJEITO DO INFINITIVO
 
 Título:
 
-## DOIS PRONOMES → UMA FORMA COMBINADA
+## A MESMA FORMA, OUTRA FUNÇÃO
 
-Exemplo:
+Mostrar:
+
+**Deixe-o entrar.**
+
+↓
+
+“o” relaciona-se a “entrar”
+
+↓
+
+**sujeito do infinitivo**
+
+Comparar com:
+
+**Eu o encontrei.**
+
+↓
+
+“o” = complemento do verbo “encontrei”
+
+↓
+
+**OD**
+
+Adicionar:
+
+- Mandei-o entrar.
+- Vi-o chegar.
+- Ouvi-a cantar.
+
+Criar uma ligação visual entre os exemplos.
+
+Mensagem:
+
+> **A forma do pronome não determina sozinha sua função. A estrutura determina.**
+
+---
+
+# 7. PRONOMES COMBINADOS — EXPLICAR A CONSTRUÇÃO
+
+Criar uma transformação visual:
 
 **Entreguei o livro a João.**
 
 ↓
 
-**Entreguei-lho.**
+**o livro = OD**
 
-Decomposição visual:
-
-**lhe** = a João → OI
-
-+
-
-**o** = o livro → OD
+**a João = OI**
 
 ↓
 
-**lho = lhe + o**
+**lhe + o**
 
-A prioridade é compreender a lógica das duas funções, não decorar uma lista isolada.
+↓
+
+**lho**
+
+↓
+
+**Entreguei-lho.**
+
+A decomposição deve ser visual.
+
+Adicionar:
+
+> **Não decore apenas “lho”. Entenda quais duas funções foram combinadas.**
 
 ---
 
-# 8. RAMO — PRONOMES DE TRATAMENTO
+# 8. PRONOMES DE TRATAMENTO
 
-Organizar em:
+Criar relação:
 
-**AUTORIDADE / CARGO / CONTEXTO**
+**CARGO / CONTEXTO**
 ↓
 **PRONOME DE TRATAMENTO**
 ↓
 **CONCORDÂNCIA**
 
-Retomar a questão real CESGRANRIO trabalhada no estudo sobre correspondência oficial.
+Retomar a questão real utilizada no estudo sobre correspondência oficial, se estiver disponível nas fontes.
 
-Destacar:
+Mostrar o raciocínio da questão.
 
-> Pronomes de tratamento exigem atenção ao cargo/contexto e à concordância verbal em terceira pessoa.
-
-Não transformar o mapa em catálogo extenso se a fonte não sustentar os casos.
+Não transformar este ramo em uma lista enorme se as fontes não sustentarem essa lista.
 
 ---
 
-# 9. RAMO — COLOCAÇÃO PRONOMINAL
+# 9. COLOCAÇÃO PRONOMINAL — RAMO VISUAL COMPLETO
 
 Criar três subramos:
 
 ### PRÓCLISE
-Pronome antes do verbo.
+pronome antes do verbo
 
 ### ÊNCLISE
-Pronome depois do verbo.
+pronome depois do verbo
 
 ### MESÓCLISE
-Pronome no interior da forma verbal.
+pronome no interior da forma verbal
 
-Criar um quarto subramo:
+Depois criar:
 
-## PALAVRAS / ESTRUTURAS ATRATIVAS
+## O QUE PODE ATRAIR O PRONOME?
 
-Mostrar que o contexto sintático pode determinar a colocação.
+Mostrar os elementos/estruturas atrativas sustentados pelas fontes da Aula 00.
 
-Incluir:
+Adicionar um exemplo de cada regra relevante.
 
-**erro inicial do estudo → reparo → nova aplicação**
+Depois incluir um bloco especial:
 
-A colocação pronominal deve aparecer como um dos ramos de maior importância, pois foi o ponto que inicialmente gerou erro.
+### NOSSO PONTO DE REPARO
 
----
-
-# 10. RAMO — QUESTÃO DE CONCURSO
-
-Criar um fluxo visual:
-
-**ENUNCIADO**
-↓
-**O QUE A BANCA ESTÁ COBRANDO?**
-↓
-**LOCALIZE A ESTRUTURA**
-↓
-**APLIQUE A REGRA**
-↓
-**ELIMINE DISTRATORES**
-↓
-**GABARITO**
-↓
-**REGRA TRANSFERÍVEL**
-
-Inserir um selo:
-
-### CESGRANRIO
-
-E representar as questões reais utilizadas no estudo como exemplos de aplicação, identificando banca/concurso/ano quando disponíveis.
-
-Não apresentar exemplos adaptados como questões reais.
-
----
-
-# 11. RAMO — ARMADILHAS
-
-Criar uma seção visual chamada:
-
-## ONDE A BANCA TENTA TE PEGAR?
-
-Subitens:
-
-- analisar o pronome isoladamente;
-- confundir OD e OI;
-- achar que “lhe” é sempre OI;
-- confundir “eu” e “mim”;
-- ignorar quem pratica a ação do infinitivo;
-- confundir complemento verbal com complemento nominal;
-- decorar “lho” sem entender suas duas funções;
-- ignorar o contexto na colocação pronominal;
-- responder pela aparência da frase em vez da estrutura sintática.
-
----
-
-# 12. RAMO — PROTOCOLO RÁPIDO DE PROVA
-
-Criar um elemento destacado no mapa:
-
-## PROTOCOLO DOS 6 PASSOS
-
-**1. VERBO**
-→ encontre o verbo.
-
-**2. REGÊNCIA**
-→ descubra o que ele exige.
-
-**3. PREPOSIÇÃO**
-→ verifique a relação.
-
-**4. COMPLEMENTO**
-→ localize o termo.
-
-**5. FUNÇÃO**
-→ OD, OI, complemento nominal etc.
-
-**6. PRONOME**
-→ só agora analise o pronome.
-
-Esse bloco deve ser visualmente destacado como **ferramenta de prova**.
-
----
-
-# 13. RAMO — APRENDIZAGEM E NOSSO PROGRESSO
-
-Representar a trajetória:
-
-**ERRO**
+**Erro inicial**
 ↓
 Pronomes / colocação
 
-**REPARO**
+**Revisão**
 ↓
-revisão conceitual
+regra + exemplos
 
-**APLICAÇÃO**
+**Nova aplicação**
 ↓
-questões CESGRANRIO
+acerto em questão CESGRANRIO referenciada
 
-**RETREINO**
-↓
-QTI-5
-
-**RESULTADO**
-↓
-5/5 — 100%
-
-**PRÓXIMO PASSO**
-↓
-espaçamento + reteste + fluência
-
-Não declarar “domínio definitivo”.
-
-Destacar:
-
-> **Acerto imediato ≠ consolidação definitiva.**
-
-E:
-
-> **Conhecimento + retenção + velocidade + transferência = evidência mais forte de consolidação.**
+O ramo deve mostrar a evolução, não apenas a definição.
 
 ---
 
-# 14. ORGANIZAÇÃO VISUAL
+# 10. QUESTÕES CESGRANRIO — NÃO CRIAR UM TÍTULO, CRIAR UM PROCESSO
 
-O mapa deve ter aparência de **mapa mental de revisão para concurso**, não de infográfico corporativo.
+O ramo deve representar uma verdadeira **AUTÓPSIA DE QUESTÃO**.
 
-Hierarquia:
+Criar:
 
-### Centro
-**PRONOMES — AULA 00**
+## QUESTÃO REAL
 
-### Primeira camada
-- Regra-mãe
-- OD × OI
+↓  
+
+**1. O que a banca está cobrando?**
+
+↓
+
+**2. Qual é o verbo/estrutura relevante?**
+
+↓
+
+**3. Qual é a função sintática?**
+
+↓
+
+**4. Qual regra se aplica?**
+
+↓
+
+**5. Onde está a armadilha?**
+
+↓
+
+**6. Qual é o gabarito?**
+
+↓
+
+**7. Qual regra posso transferir para outra questão?**
+
+Adicionar exemplos reais disponíveis nas fontes, identificando:
+
+**BANCA | CONCURSO | ANO | TEMA**
+
+Não inventar questões.
+
+Se uma questão tiver sido adaptada, identificar claramente:
+
+**QUESTÃO ADAPTADA**
+
+---
+
+# 11. ARMADILHAS DA BANCA — TRANSFORMAR EM ALERTAS VISUAIS
+
+Não listar apenas palavras.
+
+Para cada armadilha, mostrar:
+
+**ARMADILHA → COMO IDENTIFICAR → COMO EVITAR**
+
+Incluir:
+
+### Armadilha 1
+**Analisar o pronome isoladamente**
+
+→ verificar a estrutura.
+
+### Armadilha 2
+**Achar que LHE é sempre OI**
+
+→ descobrir quem exige o complemento.
+
+### Armadilha 3
+**Confundir EU e MIM**
+
+→ verificar quem pratica a ação do infinitivo.
+
+### Armadilha 4
+**Confundir OD e OI**
+
+→ analisar regência.
+
+### Armadilha 5
+**Confundir complemento verbal e nominal**
+
+→ perguntar quem recebe o complemento.
+
+### Armadilha 6
+**Ver “o” e assumir automaticamente OD**
+
+→ analisar a oração completa.
+
+### Armadilha 7
+**Decorar LHO sem entender**
+
+→ decompor em LHE + O.
+
+### Armadilha 8
+**Ignorar o contexto na colocação pronominal**
+
+→ procurar os elementos que determinam a colocação.
+
+---
+
+# 12. PROTOCOLO DOS 6 PASSOS — ÁREA DE DESTAQUE
+
+Criar um grande bloco visual, separado dos demais.
+
+# COMO ATACAR A QUESTÃO
+
+### 1 — VERBO
+Ache o verbo.
+
+↓
+
+### 2 — REGÊNCIA
+Descubra o que ele exige.
+
+↓
+
+### 3 — PREPOSIÇÃO
+Verifique a relação.
+
+↓
+
+### 4 — COMPLEMENTO
+Localize o termo.
+
+↓
+
+### 5 — FUNÇÃO
+OD? OI? Complemento nominal?
+
+↓
+
+### 6 — PRONOME
+Agora analise o pronome.
+
+Adicionar:
+
+> **Se você fizer esses seis passos, não estará mais tentando adivinhar o pronome. Estará analisando a estrutura.**
+
+---
+
+# 13. TRAJETÓRIA DE APRENDIZAGEM — NOSSO HISTÓRICO REAL
+
+Criar uma linha do tempo visual.
+
+### ETAPA 1 — ERRO
+
+**QTI-10**
+
+Pronomes / colocação  
+❌ erro
+
+↓
+
+### ETAPA 2 — REPARO
+
+Revisão conceitual:
+- OD/OI
 - LHE
-- EU × MIM
-- Oblíquo + infinitivo
-- Pronomes combinados
-- Tratamento
-- Colocação pronominal
-- Questões CESGRANRIO
-- Armadilhas
-- Protocolo de prova
-- Progresso
+- EU/MIM
+- oblíquo + infinitivo
+- combinações
+- complemento nominal
 
-### Segunda camada
-Cada ramo deve conter:
-**regra → exemplo → contraste → armadilha**
+↓
 
-### Terceira camada
-Quando necessário:
-**exceção → pergunta de diagnóstico → aplicação**
+### ETAPA 3 — TRANSFERÊNCIA
+
+Questões CESGRANRIO referenciadas
+
+✅ acertos
+
+↓
+
+### ETAPA 4 — RETREINO
+
+**QTI-5**
+
+**5/5 — 100%**
+
+↓
+
+### ETAPA 5 — PONTO DE ATENÇÃO
+
+Questão de objeto indireto:
+
+**110,6 segundos**
+
+↓
+
+### ETAPA 6 — PRÓXIMO PASSO
+
+**ESPAÇAMENTO + RETESTE + FLUÊNCIA**
+
+Adicionar:
+
+> **100% em um único teste não significa consolidação definitiva.**
 
 ---
 
-# 15. ESTILO VISUAL
+# 14. REGRA DE PROFUNDIDADE
+
+Este requisito é OBRIGATÓRIO.
+
+### NÃO FAÇA:
+
+[ Eu × Mim → ]
+
+[ LHE → ]
+
+[ Colocação Pronominal → ]
+
+[ Questões CESGRANRIO → ]
+
+Isso cria apenas uma árvore de tópicos.
+
+### FAÇA:
+
+[ EU × MIM ]
+↓
+EU → sujeito do infinitivo → “para eu estudar”
+MIM → complemento → “para mim”
+↓
+PERGUNTA → “Quem pratica a ação?”
+↓
+ARMADILHA → “para mim estudar”
+↓
+REGRA → função sintática
+
+Cada ramo importante precisa ter **conteúdo interno visível**.
+
+---
+
+# 15. REGRA DE DENSIDADE
+
+O mapa deve ter conteúdo suficiente para ser útil, mas não deve virar uma página de texto.
+
+Para cada ramo principal:
+
+**1 regra curta**
+
++
+
+**1 ou 2 exemplos**
+
++
+
+**1 contraste**
+
++
+
+**1 pergunta diagnóstica ou armadilha**
+
+Isso cria densidade cognitiva sem transformar o mapa em apostila.
+
+---
+
+# 16. ESTRUTURA VISUAL
+
+O mapa deve parecer um **mapa mental de estudo**, não um fluxograma corporativo.
+
+Use:
+
+- nó central forte;
+- ramificações orgânicas;
+- sub-ramos;
+- relações cruzadas quando um conceito depender de outro;
+- exemplos próximos da regra que explicam;
+- alertas próximos das armadilhas;
+- fluxos para decisões;
+- linha do tempo para evolução.
+
+### IMPORTANTE
+
+Não use uma coluna vertical única com todos os assuntos.
+
+O mapa deve ocupar o espaço de forma radial e permitir que os ramos tenham profundidade.
+
+---
+
+# 17. RELAÇÕES CRUZADAS
+
+Alguns conceitos devem estar conectados.
+
+Criar conexões visuais entre:
+
+**REGÊNCIA**
+↔
+**OD/OI**
+
+**OD/OI**
+↔
+**LHE**
+
+**FUNÇÃO SINTÁTICA**
+↔
+**EU/MIM**
+
+**FUNÇÃO SINTÁTICA**
+↔
+**OBLÍQUO + INFINITIVO**
+
+**COLOCAÇÃO**
+↔
+**QUESTÕES CESGRANRIO**
+
+**ARMADILHAS**
+↔
+**PROTOCOLO DOS 6 PASSOS**
+
+Essas conexões são fundamentais.
+
+O mapa deve mostrar que os conceitos **não são assuntos isolados**.
+
+---
+
+# 18. NÍVEIS DE LEITURA
+
+O mapa deve funcionar em três níveis:
+
+### 30 SEGUNDOS
+Somente os grandes conceitos.
+
+### 3 MINUTOS
+Regras + exemplos + contrastes.
+
+### 10 MINUTOS
+Regras + exemplos + armadilhas + procedimento de prova + trajetória.
+
+---
+
+# 19. ESTILO VISUAL
 
 Preferência:
 
 - fundo escuro;
 - alto contraste;
-- tipografia grande e legível;
+- tipografia grande;
+- boa legibilidade;
 - poucas palavras por bloco;
 - conexões claras;
-- hierarquia visual forte;
-- elementos agrupados por função;
+- hierarquia visual;
 - aparência moderna;
-- sem excesso de decoração.
+- cores usadas com significado, não decoração.
 
-Usar cores apenas para estabelecer significado visual:
+Sugestão sem obrigatoriedade:
 
-- **regra principal**;
-- **exemplo**;
-- **armadilha**;
-- **questão de prova**;
-- **procedimento**;
-- **estado de aprendizagem**.
+**regra** = cor neutra forte  
+**exemplo** = outra tonalidade  
+**armadilha** = destaque de alerta  
+**questão real** = destaque próprio  
+**protocolo** = destaque próprio  
+**resultado/aprendizagem** = destaque próprio
 
-Não utilizar cores apenas como decoração.
-
----
-
-# 16. PRINCÍPIO PEDAGÓGICO DO MAPA
-
-O mapa deve permitir três níveis de leitura:
-
-### Leitura 1 — 30 segundos
-Apenas os grandes ramos.
-
-### Leitura 2 — 3 minutos
-Regras e contrastes.
-
-### Leitura 3 — 10 minutos
-Exemplos, armadilhas e procedimento de prova.
-
-O mapa deve funcionar como uma **interface de recuperação da memória**, permitindo ao aluno reconstruir a explicação sem reler a aula inteira.
+Não transformar o mapa em carnaval visual.
 
 ---
 
-# 17. FRASE FINAL
+# 20. CRITÉRIO DE ACEITAÇÃO
 
-Na parte inferior do mapa:
+Antes de finalizar, faça uma verificação interna:
 
-> **“Não pergunte apenas: que pronome é esse?  
-> Pergunte: o que ele está fazendo aqui?”**
+### O mapa responde visualmente?
+
+- O que é a regra-mãe?
+- Como analisar um pronome?
+- Como distinguir OD e OI?
+- Como analisar LHE?
+- Quando usar EU e MIM?
+- Como funciona o oblíquo como sujeito do infinitivo?
+- Como funciona LHO?
+- Como analisar colocação pronominal?
+- Como a questão CESGRANRIO deve ser desmontada?
+- Quais são as principais armadilhas?
+- Qual é o protocolo de prova?
+- O que já foi aprendido?
+- Qual é o próximo passo?
+
+Se algum desses pontos aparecer apenas como **título sem explicação**, o mapa está incompleto.
+
+---
+
+# 21. PRINCÍPIO FINAL
+
+O objetivo não é produzir o mapa mental mais bonito.
+
+O objetivo é produzir um mapa que, ao ser observado semanas depois, permita ao aluno pensar:
+
+> **“Eu lembro como raciocinar essa questão.”**
+
+Portanto:
+
+**NÃO FAÇA UM ÍNDICE VISUAL.**
+
+**FAÇA UM SISTEMA VISUAL DE RECUPERAÇÃO E RESOLUÇÃO DE QUESTÕES.**
+
+A prioridade é:
+
+**clareza → relações → exemplos → contraste → armadilha → decisão → recuperação → aplicação.**
+
+Frase final:
+
+> **“Não pergunte apenas: que pronome é esse? Pergunte: o que ele está fazendo aqui?”**
 
 Subtítulo:
 
 **Pronomes — Aula 00 | Transpetro 2026 | CESGRANRIO**
-
----
-
-## Instrução final para a IA que gerar o mapa
-
-Não transforme este conteúdo em uma página cheia de texto.
-
-**Converta relações em conexões visuais.**
-
-O mapa deve permitir que o aluno olhe para um ramo e consiga reconstruir mentalmente a explicação completa.
-
-Prioridades:
-
-**clareza → hierarquia → relações → contraste → recuperação → aplicação em prova.**
