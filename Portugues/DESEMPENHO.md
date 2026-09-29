@@ -15,8 +15,8 @@
 |---|---|---:|---:|---:|---:|
 | QTI-10 | Avaliação Aula 00 | 10 | 9 | 90% | 237,5 s |
 | QTI-2 | Questões reais referenciadas | 2 | 2 | 100% | 44,7 s |
-| QTI-5 | Questões reais — CESGRANRIO/TRANSPETRO 2023 | 5 | 5 | 100% | 227,1 s |
-| **Acumulado** | | **17** | **16** | **94,1%** | **509,3 s** |
+| QTI-5 | Revisão conceitual — Pronomes | 5 | 5 | 100% | 229,2 s |
+| **Acumulado** | | **17** | **16** | **94,1%** | **511,4 s** |
 
 ### Checkpoint — QTI-5 (2026-09-29)
 
