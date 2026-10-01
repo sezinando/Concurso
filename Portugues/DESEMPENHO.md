@@ -7,6 +7,16 @@
 - **Escopo:** somente Português
 - **Regra:** este arquivo não incorpora desempenho de outras disciplinas.
 
+
+
+## Regra operacional de tempo — fase inicial de aprendizagem
+
+**Durante a fase inicial de aquisição, revisão e reparo do conteúdo, o tempo entre questões NÃO será utilizado como critério de desempenho ou diagnóstico.**
+
+Nesta fase, a prioridade é **compreensão, recuperação e correção do conteúdo**. O tempo pode ser registrado tecnicamente, mas não deve gerar pressão por velocidade nem alterar a classificação pedagógica. A análise de tempo será retomada quando entrarmos em uma fase predominantemente de **execução de questões, simulados e preparação para o ritmo de prova**.
+
+Esta decisão deve ser considerada pelo **orquestrador de estudos** e aplicada às demais disciplinas durante a fase inicial de aprendizagem.
+
 ## Estado atual — Aula 00
 
 ### Avaliações realizadas
